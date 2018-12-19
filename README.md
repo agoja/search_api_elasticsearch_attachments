@@ -15,7 +15,7 @@ making use of Elasticsearch data type "attachment".
 This module requires:
 * Drupal 8
 * Search API Module
-* Elasticsearch Connector module (Alpha 1)
+* Elasticsearch Connector module (6.x)
 * Elasticsearch Version 6.2
 * Elasticsearch `ingest-attachment` plugin
 
@@ -35,9 +35,9 @@ Thats the hard work done.
 composer require drupal/search_api_elasticsearch_attachments
 ```
 
-## Elasticsearch Connector module (Alpha 1) compatibility.
-Alpha 1 version of Elasticsearch Connector module requires a number of patches.
-If you are using Alpha 1, please use 8.x-6.0-alpha1 of
+## Elasticsearch Connector module (6.x) compatibility.
+6.x version of Elasticsearch Connector module requires a number of patches.
+If you are using 6.x, please use 8.x-6.x-dev of
 *search_api_elasticsearch_attachments* module.
 
 This will auto install the *search_api_elasticsearch_attachments* module
